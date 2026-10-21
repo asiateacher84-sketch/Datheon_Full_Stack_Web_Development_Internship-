@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Dynamic Task Manager</title>
+        <link rel="stylesheet" href="styl.css">
+        </head>
+        <body>
+            <div class="weather-card">
+                <h2>Weather Forecast</h2>
+                <div class="search-box">
+                    <input type="text" id="city-input" placeholder="Enter city name (e.g, Zanzibar)";>
+                    <button id="search-btn">Search</button>
+                </div>
+                <div id="weather-info" class="hidden">
+                    <h3 id="city-name">--</h3>
+                    <p id="temperature">-- &deg;C</p>
+                    <p id="description">--</p>
+                    <p id="humidity">Humidity: --%</p>
+                </div>
+                <p id="error-message" class="error hidden">City not found! please try again.</p>
+            </div>
+            <script src="app.js"></script>
+
+            </body>
+            </html>
